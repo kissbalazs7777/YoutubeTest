@@ -12,7 +12,7 @@ public class BaseTests {
 
     private WebDriver driver;
     protected HomePage homePage;
-    protected String email = "ladatolcsontesztelek@gmail.com";
+    protected String email = "mindenematraktorok@gmail.com";
     protected String pw = "QA123456";
 
     public WebDriver getDriver() {

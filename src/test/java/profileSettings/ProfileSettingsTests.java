@@ -22,7 +22,7 @@ public class ProfileSettingsTests extends BaseTests {
         youtubeHomePage.clickHuOption();
         youtubeHomePage.clickAvatarButton();
         YoutubeAccountPage youtubeAccountPage = youtubeHomePage.clickSettings();
-        assertEquals("ladatolcsontesztelek@gmail.com", youtubeAccountPage.getTextFromSpan());
+        assertEquals("mindenematraktorok@gmail.com", youtubeAccountPage.getTextFromSpan());
     }
 
     @Test
